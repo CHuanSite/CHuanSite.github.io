@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Huan Chen</title>
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #000;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+  }
+
+  #container {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 30px 20px;
+  }
+
+  /* HEADER */
+  #header {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 28px;
+    align-items: flex-start;
+  }
+  #header img {
+    width: 130px;
+    height: 160px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    flex-shrink: 0;
+    background: #e8e8e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .photo-placeholder {
+    width: 130px;
+    height: 160px;
+    background: #d0d8e4;
+    border: 1px solid #bbb;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-size: 12px;
+    text-align: center;
+  }
+  #header-info h1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 4px 0;
+  }
+  #header-info .title {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 2px;
+  }
+  #header-info .contact {
+    font-size: 13px;
+    color: #333;
+    margin-top: 6px;
+  }
+  #header-info .contact a { color: #00c; }
+  #header-info .bio {
+    margin-top: 10px;
+    font-size: 13.5px;
+    line-height: 1.65;
+  }
+
+  /* NAV */
+  #nav {
+    border-top: 2px solid #555;
+    border-bottom: 1px solid #aaa;
+    padding: 5px 0;
+    margin-bottom: 24px;
+    font-size: 13px;
+  }
+  #nav a {
+    color: #00c;
+    margin-right: 18px;
+    text-decoration: none;
+  }
+  #nav a:hover { text-decoration: underline; }
+
+  /* SECTIONS */
+  h2 {
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 3px;
+    margin: 28px 0 12px 0;
+    color: #000;
+  }
+
+  /* EXPERIENCE */
+  .exp-entry {
+    margin-bottom: 16px;
+  }
+  .exp-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 13.5px;
+  }
+  .exp-role {
+    font-style: italic;
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 4px;
+  }
+  .exp-bullets {
+    margin: 4px 0 0 18px;
+    padding: 0;
+    font-size: 13px;
+    color: #222;
+  }
+  .exp-bullets li { margin-bottom: 3px; }
+
+  /* PUBLICATIONS */
+  .pub-entry {
+    margin-bottom: 10px;
+    font-size: 13px;
+    line-height: 1.55;
+  }
+  .pub-title { font-weight: bold; }
+  .pub-venue { font-style: italic; color: #333; }
+  .pub-links a {
+    color: #00c;
+    margin-right: 8px;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  .pub-links a:hover { text-decoration: underline; }
+
+  /* SKILLS TABLE */
+  .skills-table { border-collapse: collapse; font-size: 13px; }
+  .skills-table td { padding: 3px 12px 3px 0; vertical-align: top; }
+  .skills-table td:first-child { font-weight: bold; white-space: nowrap; }
+
+  /* ACTIVITIES */
+  .activities-list {
+    margin: 0 0 0 18px;
+    padding: 0;
+    font-size: 13px;
+  }
+  .activities-list li { margin-bottom: 4px; }
+  .activities-list a { color: #00c; }
+
+  /* EDUCATION */
+  .edu-entry { margin-bottom: 10px; font-size: 13px; }
+  .edu-entry .degree { font-weight: bold; }
+  .edu-entry .school { }
+  .edu-entry .detail { color: #444; font-size: 12.5px; }
+
+  hr { border: none; border-top: 1px solid #ddd; margin: 8px 0; }
+
+  footer {
+    margin-top: 32px;
+    border-top: 1px solid #aaa;
+    padding-top: 8px;
+    font-size: 12px;
+    color: #666;
+  }
+</style>
+</head>
+<body>
+<div id="container">
+
+  <!-- HEADER -->
+  <div id="header">
+    
+    <div id="header-info">
+      <h1>Huan Chen</h1>
+      <div class="title">Senior Software Engineer, Instagram, Meta</div>
+      <div class="title">New York, NY</div>
+      <div class="contact">
+        Email: huanchen94 at outlook dot com &nbsp;|&nbsp;
+        <a href="https://linkedin.com/in/huan-chen-140736194" target="_blank">LinkedIn</a> &nbsp;|&nbsp;
+        <a href="https://scholar.google.com/citations?user=-Clfh1MAAAAJ&hl=en" target="_blank">Google Scholar</a>
+      </div>
+      <div class="bio">
+        I am a Senior Software Engineer at Instagram, Meta, working on the recommendation systems for Reels. I received my Ph.D. in Biostatistics and M.S. in Computer Science from <a href="https://www.jhu.edu">Johns Hopkins University</a> under the supervision of <a href="https://sites.google.com/view/bcaffo/home">Brian Caffo</a>, where I did research on statistical learning on complex structured data from neuroscience. I received my B.S. in Statistics from <a href="https://www.zju.edu.cn">Zhejiang University</a>.
+      </div>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <div id="nav">
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#publications">Publications</a>
+
+  </div>
+
+  <!-- EXPERIENCE -->
+  <h2 id="experience">Experience</h2>
+
+  <ul class="activities-list">
+    <li>2025/1 -, Senior Software Engineer, Meta — Instagram.</li>
+    <li>2022/7 - 2024/12, Software Engineer, Meta — Instagram.</li>
+    <li>2021/6 - 2021/8, Software Engineer Intern, Meta — Instagram.</li>
+    <li>2019/6 - 2019/8, Research Scientist Intern, AT&T Labs.</li>
+    <li>2017/9 - 2022/6, Research Assistant, Department of Biostatistics, Johns Hopkins University.</li>
+  </ul>
+
+  <!-- EDUCATION -->
+  <h2 id="education">Education</h2>
+
+  <ul class="activities-list">
+    <li>2022, Ph.D. in Biostatistics, Johns Hopkins University.</li>
+    <li>2020, M.S. in Computer Science, Johns Hopkins University.</li>
+    <li>2017, B.S. in Statistics (Honors), Zhejiang University.</li>
+  </ul>
+
+
+  <!-- PUBLICATIONS -->
+  <h2 id="publications">Publications</h2>
+
+  <div class="pub-entry">
+    <span class="pub-title">Autism and Hierarchical Models of Intelligence</span><br>
+    Michael A. Levine, Huan Chen, Ericka L. Wodka, Brian S. Caffo, Joshua B. Ewen.<br>
+    <span class="pub-venue">Journal of Autism and Developmental Disorders, 55(6):2034–2042, 2025.</span>
+    <div class="pub-links"><a href="https://pubmed.ncbi.nlm.nih.gov/37118644/">[PubMed]</a></div>
+  </div>
+
+  <div class="pub-entry">
+    <span class="pub-title">A Multi-Trait Multi-Method Examination of Psychometric Instrument Performance in Autism Spectrum Disorder</span><br>
+    Michael A. Levine, Huan Chen, Ericka L. Wodka, Alyssa C. Deronda, Brian S. Caffo, Joshua B. Ewen.<br>
+    <span class="pub-venue">Assessment, 31(4):892–898, 2024.</span>
+    <div class="pub-links"><a href="https://doi.org/10.1177/10731911231198205">[Journal]</a></div>
+  </div>
+
+  <div class="pub-entry">
+    <span class="pub-title">Autism Symptom Presentation and Hierarchical Models of Intelligence</span><br>
+    Michael A. Levine, Huan Chen, Ericka L. Wodka, Brian S. Caffo, Joshua B. Ewen.<br>
+    <span class="pub-venue">Journal of Autism and Developmental Disorders, 2024.</span>
+    <div class="pub-links"><a href="https://pubmed.ncbi.nlm.nih.gov/38833030/">[PubMed]</a></div>
+  </div>
+
+  <div class="pub-entry">
+    <span class="pub-title">Two-Stage Linked Component Analysis for Joint Decomposition of Multiple Biologically Related Data Sets</span><br>
+    Huan Chen, Brian Caffo, Genevieve Stein-O'Brien, Jinrui Liu, Ben Langmead, Carlo Colantuoni, Luo Xiao.<br>
+    <span class="pub-venue">Biostatistics, 23(4):1200–1217, 2022.</span>
+    <div class="pub-links">
+      <a href="https://pubmed.ncbi.nlm.nih.gov/35358296/">[PubMed]</a>
+      <a href="https://github.com/CHuanSite/SJD">[Code]</a>
+    </div>
+  </div>
+
+  <div class="pub-entry">
+    <span class="pub-title">Structured Joint Decomposition (SJD) Identifies Conserved Molecular Dynamics across Collections of Biologically Related Multi-Omics Data Matrices</span><br>
+    Huan Chen, et al.<br>
+    <span class="pub-venue">Preprint.</span>
+    <div class="pub-links">
+      <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-Clfh1MAAAAJ&citation_for_view=-Clfh1MAAAAJ:fEOibwPWpKIC">[Google Scholar]</a>
+      <a href="https://github.com/SJDgroup/SJD">[Code]</a>
+    </div>
+  </div>
+
+  <div class="pub-entry">
+    <span class="pub-title">A Statistical Intrusion Detection System for Identification of Botnet Command and Control Hosts</span><br>
+    Subramaniam, Huan Chen, Varadhan, Archibald.<br>
+    <span class="pub-venue">arXiv:2108.08924, 2021.</span>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2108.08924">[arXiv]</a></div>
+  </div>
+
+  <div class="pub-entry">
+    <span class="pub-title">Examining the Safety, Pharmacokinetics, and Pharmacodynamics of a Rectally Administered IQP-0528 Gel for HIV Pre-Exposure Prophylaxis: A First-In-Human Study</span><br>
+    Amer Al-Khouja, Eugenie Shieh, Edward J. Fuchs, Mark A. Marzinke, Rahul P. Bakshi, Pamela Hummert, Anthony S. Ham, Karen W. Buckheit, Jennifer Breakey, Ethel D. Weld, Huan Chen, Brian S. Caffo, Robert W. Buckheit Jr., Craig W. Hendrix.<br>
+    <span class="pub-venue">AIDS Research and Human Retroviruses, 2021.</span>
+    <div class="pub-links"><a href="https://www.liebertpub.com/doi/10.1089/aid.2020.0188">[Journal]</a></div>
+  </div>
+
+  <div class="pub-entry">
+    <span class="pub-title">Lasso Estimation of Hierarchical Interactions for Analyzing Heterogeneity of Treatment Effect</span><br>
+    Yu Du, Huan Chen, Ravi Varadhan.<br>
+    <span class="pub-venue">Statistics in Medicine, 40(24):5417–5433, 2021.</span>
+    <div class="pub-links"><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/sim.9132">[Journal]</a></div>
+  </div>
+
+  <div class="pub-entry">
+    <span class="pub-title">Are Women Disadvantaged in Academic Radiology?</span><br>
+    Rozita Jalilianhasanpour, Huan Chen, Brian Caffo, Pamela Johnson, Elham Beheshtian, David M. Yousem.<br>
+    <span class="pub-venue">Academic Radiology, 27(12):1760–1766, 2020.</span>
+    <div class="pub-links"><a href="https://pubmed.ncbi.nlm.nih.gov/33158703/">[PubMed]</a></div>
+  </div>
+
+  <div class="pub-entry">
+    <span class="pub-title">A Length Penalized Probabilistic Principal Curve Algorithm with Applications to Handwritten Digits and Pharmacologic Colon Imaging</span><br>
+    Huan Chen, Ethel Weld, Craig Hendrix, Brian Caffo.<br>
+    <span class="pub-venue">bioRxiv, 2020.</span>
+    <div class="pub-links"><a href="https://www.biorxiv.org/content/10.1101/2020.01.04.894964v1">[bioRxiv]</a></div>
+  </div>
+
+  <div class="pub-entry">
+    <span class="pub-title">Topics in Statistical Learning for Complex Structured Data</span><br>
+    Huan Chen.<br>
+    <span class="pub-venue">Ph.D. Thesis, Johns Hopkins University, 2022.</span>
+    <div class="pub-links"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-Clfh1MAAAAJ&citation_for_view=-Clfh1MAAAAJ:t7zJ5fGR-2UC">[Google Scholar]</a></div>
+  </div>
+
+  <footer>
+    Last updated: May 2026
+  </footer>
+
+</div>
+</body>
+</html>
